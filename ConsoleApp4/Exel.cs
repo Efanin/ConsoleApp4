@@ -22,6 +22,7 @@ namespace ConsoleApp4
             num++;
 
         }
+
         public void Add(string product, string price)
         {
             sheet.Cell(sheet.NotEmptyRowMax + 1, 0).Value = num;
